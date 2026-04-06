@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// Largest digit of a given number
+// Largest digit of  given number
 
 void largestdigit(int n){
     int largest = 0;
