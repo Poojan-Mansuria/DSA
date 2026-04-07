@@ -1,28 +1,19 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "build and run",
-            "type": "shell",
-            "command": "cmd",
-            "args": [
-                "/c",
-                "C:\\MinGW\\bin\\g++.exe \"${file}\" -std=c++17 -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\""
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": ["$gcc"],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared",
-                "focus": true,
-                "clear": true
-            }
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & Run C++",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "& { g++ \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\"; if ($?) { & \"${fileDirname}\\${fileBasenameNoExtension}.exe\" } }"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
 }
