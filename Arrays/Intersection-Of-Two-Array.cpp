@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Missing Number In TWo Array
+//
+1
 
 vector<int> IntersectionArray(vector<int>& arr1, vector<int>& arr2){
     int n1 = arr1.size();
