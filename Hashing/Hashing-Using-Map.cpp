@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//Hashing Using Map
 int main(){
     int n;
     cin>>n;
