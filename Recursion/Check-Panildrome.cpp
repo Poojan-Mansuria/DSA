@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//check panildrome 
 
 int print(int n,int i,int arr[]){
     if(i>=n/2) return true;
