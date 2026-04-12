@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-/* -------- Pattern 2 -------- */
+//Pattern 2
+
 void pattern2(int n){
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++)
