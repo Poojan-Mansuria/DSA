@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-//Method 1
+//Method  1
+
 void print(int i,int n){
     if(i<1) return;
     else cout<<i<<endl;
