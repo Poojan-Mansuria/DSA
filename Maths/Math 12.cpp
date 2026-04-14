@@ -2,7 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Method 1
+// Method no 1
+
 void gcd1(int n1,int n2){
     int gcd = 1;
 
